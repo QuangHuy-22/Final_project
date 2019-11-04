@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SHOP HAU</title>
+  <link rel="stylesheet" href="asset/css/style.css">
+  <link rel="shortcut icon" type="image/png" href="asset/image/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.css">
+    <link rel="stylesheet" href="asset/css/hover.css" media="all">
+    <script src="asset/js/js.js"></script>
+</head>
+<body>
+<div class="logo-banner">
+    <nav class="navbar navbar-inverse" style="min-height: 66px;margin-bottom:0;border-radius: 0">
+        <div class="container" style="padding-top: 8px">
+            <div class="col-md-9">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html" style="font-family: 'Diavlo Medium';color: white;font-size: 30px;">SHOP HAU <sub>	&#174;</sub></a>
+                </div>
+                <div class="search">
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                        <div class="form-group" style="padding-left: 40px;">
+                            <input type="text" class="form-control" placeholder="Tìm kiếm" name="search" style="width: 400px">
+                        </div>
+                        <button class="form-control"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3 map">
+                <a href="gioithieu.html" style="color: white;font-size: 36px"><i class="fas fa-map-pin"></i></a>
+                <a class="shopping_bg" href="cart.html" style="color: white;font-size: 36px;padding-left:50px;"><i class="fas fa-shopping-cart"> <span class="badge">1</span></i></a>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="nav" id="myHeader">
+  <div class="cmd container-fluid">
+    <ul class="menu cf">
+      <li><a href="index.html">TRANG CHỦ</a></li>
+      <li>
+        <a href="aosomi.html">ÁO SƠ MI</a>
+        <ul class="submenu">
+          <li><a href="somingantay.html">Sơ mi ngắn tay</a></li>
+          <li><a href="somidaitay.html">Sơ mi dài tay</a></li>
+        </ul>
+      </li>
+      <li><a href="aothunnam.html">ÁO THUN NAM</a>
+        <ul class="submenu">
+          <li><a href="aopolo.html">Áo polo</a></li>
+          <li><a href="thunkhongco.html">Áo thun không cổ</a></li>
+        </ul>
+      </li>
+      <li><a href="spdong.html">SP ĐÔNG</a>
+      <ul class="submenu">
+          <li><a href="aogio.html">Áo gió</a></li>
+          <li><a href="aophao.html">Áo Phao</a></li>
+          <li><a href="aokhoacnam.html">Áo khoác nam</a></li>
+          <li><a href="aokhoacbo.html">Áo khoác bò</a></li>
+          <li><a href="aoda.html">Áo da</a></li>
+          <li><a href="aokaki.html">Áo kaki</a></li>
+        </ul>
+      </li>
+       <li><a href="phukien.html">PHỤ KIỆN</a>
+        <ul class="submenu">
+          <li><a href="thatlung.html">Thắt lưng</a></li>
+          <li><a href="balo.html">Túi xách,balo</a></li>
+          <li><a href="vida.html">Ví da</a></li>
+          <li><a href="dolot.html">Đồ lót nam</a></li>
+        </ul>
+      </li>
+      <li><a href="aodoi.html">ÁO ĐÔI</a></li>
+      <li><a href="tintuc.html">TIN TỨC</a></li>
+      <li><a href="gioithieu.html">LIÊN HỆ</a></li>
+    </ul>
+  </div>
+</div>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Trang Chủ</a>
+  <a href="gioithieu.html">Cửa Hàng</a>
+  <a href="cart.html">Giỏ Hàng</a>
+  <a href="#" class="dropdown-btn">Danh mục 
+    <i class="fa fa-caret-down"></i>
+  </a>
+  <div class="dropdown-container">Danh Mục
+    <ul class="casc">
+      <li>
+        <a href="aosomi.html">ÁO SƠ MI</a>
+        <ul class="ali">
+          <li><a href="somingantay.html">Sơ mi ngắn tay</a></li>
+          <li><a href="somidaitay.html">Sơ mi dài tay</a></li>
+        </ul>
+      </li>
+      <li><a href="aothunnam.html">ÁO THUN NAM</a>
+        <ul class="ali">
+          <li><a href="aopolo.html">Áo polo</a></li>
+          <li><a href="thunkhongco.html">Áo thun không cổ</a></li>
+        </ul>
+      </li>
+      <li><a href="spdong.html">SP ĐÔNG</a>
+      <ul class="ali">
+          <li><a href="aogio.html">Áo gió</a></li>
+          <li><a href="aophao.html">Áo Phao</a></li>
+          <li><a href="aokhoacnam.html">Áo khoác nam</a></li>
+          <li><a href="aokhoacbo.html">Áo khoác bò</a></li>
+          <li><a href="aoda.html">Áo da</a></li>
+          <li><a href="aokaki.html">Áo kaki</a></li>
+        </ul>
+      </li>
+       <li><a href="phukien.html">PHỤ KIỆN</a>
+        <ul class="ali">
+          <li><a href="thatlung.html">Thắt lưng</a></li>
+          <li><a href="balo.html">Túi xách,balo</a></li>
+          <li><a href="vida.html">Ví da</a></li>
+          <li><a href="dolot.html">Đồ lót nam</a></li>
+        </ul>
+      </li>
+      <li><a href="aodoi.html">ÁO ĐÔI</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰</button>  
+</div>
+<!-- end nav -->
+  <div class="strain">
+    <div class="container">
+      <a href="index.html" class="item">Trang chủ</a>&nbsp;&gt;&nbsp;
+      <span><a href="aosomi.html">Phụ Kiện</a></span>&nbsp;&gt;&nbsp;
+      <span>Đồ Lót Nam</span>
+    </div>
+</div>
+<div class="list-sp">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          <div class="find-product">
+            <div class="sort-by" style="float: left;">
+              <span>Sắp xếp theo</span>
+              <a href="#">Mặc định</a>
+              <a href="#">Mới nhất</a>
+              <a href="#">Xem nhiều nhất</a>
+              <select>
+                  <option value="">Giá</option>
+                  <option value="#">Giá tăng</option>
+                  <option value="#">Giá giảm</option>
+              </select>
+              <select>
+                  <option value="">Lựa chọn</option>
+                  <option value="#">Mới nhất</option>    
+                  <option value="#">Xem nhiều nhất</option>
+                  <option value="#">Nhiều nhận xét</option>
+                  <option value="#">Đánh giá cao nhất</option>
+                  <option value="#">Tên A-&gt;Z</option>  
+              </select>
+              </div>
+          </div>
+          <div class="clear"></div>
+          <div class="row mini-shop">
+            <div class="col-md-3 category-shop wow bounceInRight">
+             <a href="category.html">
+              <img class="hvr-float" src="asset/image/anh2.jpg" alt="" width="100%">
+              <p class="title-product">Sơ mi caro thu đông</p>
+              <p class="price-product">Giá : 365.000đ</p>
+             </a>
+              
+            </div>
+            <div class="col-md-3 category-shop wow bounceInRight">
+              <a href="category.html">
+                <img class="hvr-float" src="asset/image/anh2.jpg" alt="" width="100%">
+                <p class="title-product">Sơ mi caro thu đông</p>
+                <p class="price-product">Giá : 365.000đ</p>
+               </a>
+            </div>
+            <div class="col-md-3 category-shop wow bounceInRight">
+              <a href="category.html">
+                <img class="hvr-float" src="asset/image/anh2.jpg" alt="" width="100%">
+                <p class="title-product">Sơ mi caro thu đông</p>
+                <p class="price-product">Giá : 365.000đ</p>
+               </a>
+            </div>
+            <div class="col-md-3 category-shop wow bounceInRight">
+                <a href="category.html">
+                  <img class="hvr-float" src="asset/image/anh2.jpg" alt="" width="100%">
+                  <p class="title-product">Sơ mi caro thu đông</p>
+                  <p class="price-product">Giá : 365.000đ</p>
+                 </a>
+              </div>
+            <!-- het-onep1 -->
+            <div class="col-md-3 category-shop wow bounceInRight">
+              <a href="category.html">
+                <img class="hvr-float" src="asset/image/anh2.jpg" alt="" width="100%">
+                <p class="title-product">Sơ mi caro thu đông</p>
+                <p class="price-product">Giá : 365.000đ</p>
+               </a>
+            </div>
+            <div class="col-md-3 category-shop wow bounceInRight">
+                <a href="category.html">
+                  <img class="hvr-float" src="asset/image/anh2.jpg" alt="" width="100%">
+                  <p class="title-product">Sơ mi caro thu đông</p>
+                  <p class="price-product">Giá : 365.000đ</p>
+                 </a>
+              </div>
+            <div class="col-md-3 category-shop wow bounceInRight">
+              <a href="category.html">
+                <img class="hvr-float" src="asset/image/anh2.jpg" alt="" width="100%">
+                <p class="title-product">Sơ mi caro thu đông</p>
+                <p class="price-product">Giá : 365.000đ</p>
+               </a>
+            </div>
+            <div class="col-md-3 category-shop wow bounceInRight">
+              <a href="category.html">
+                <img class="hvr-float" src="asset/image/anh2.jpg" alt="" width="100%">
+                <p class="title-product">Sơ mi caro thu đông</p>
+                <p class="price-product">Giá : 365.000đ</p>
+               </a>
+            </div>
+            <!-- het-one-2 -->
+            <div class="col-md-3 category-shop wow bounceInRight">
+              <a href="category.html">
+                <img class="hvr-float" src="asset/image/anh2.jpg" alt="" width="100%">
+                <p class="title-product">Sơ mi caro thu đông</p>
+                <p class="price-product">Giá : 365.000đ</p>
+               </a>
+            </div>
+            <div class="col-md-3 category-shop wow bounceInRight">
+                <a href="category.html">
+                  <img class="hvr-float" src="asset/image/anh2.jpg" alt="" width="100%">
+                  <p class="title-product">Sơ mi caro thu đông</p>
+                  <p class="price-product">Giá : 365.000đ</p>
+                 </a>
+              </div>
+            <div class="col-md-3 category-shop wow bounceInRight">
+              <a href="category.html">
+                <img class="hvr-float" src="asset/image/anh2.jpg" alt="" width="100%">
+                <p class="title-product">Sơ mi caro thu đông</p>
+                <p class="price-product">Giá : 365.000đ</p>
+               </a>
+            </div>
+            <div class="col-md-3 category-shop wow bounceInRight">
+              <a href="category.html">
+                <img class="hvr-float" src="asset/image/anh2.jpg" alt="" width="100%">
+                <p class="title-product">Sơ mi caro thu đông</p>
+                <p class="price-product">Giá : 365.000đ</p>
+               </a>
+            </div>
+            <!-- het-one-3 -->
+          </div>
+          <div class="pagination" style="padding-left: 390px;">
+            <a href="#">&laquo;</a>
+            <a class="active" href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <div class="clear"></div>
+ <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 lh">
+        <h4>THÔNG TIN LIÊN HỆ</h4>
+        <p>Cửa hàng tại Hà Nội</p>
+        <i class="fas fa-map-pin"> &nbsp; Đại Học Kiến Trúc Hà Nội</i>
+      </div>
+      <div class="col-md-4 lh">
+        <h4>VỀ CHÚNG TÔI</h4>
+        <p><a href="#" style="text-decoration: none;color:#fff;">Fanpage shop HAU</a></p>
+        <p style="font-size:18px">Các Thành viên</p>
+        <ol>
+          <li>Hoàng Trung Công</li>
+          <li>Nguyễn Thị Thùy Linh</li>
+          <li>Trần Minh Hiếu</li>
+          <li>Trần Thế Long</li>
+          <li>Phạm Quang Huy</li>
+        </ol>
+      </div>
+      <div class="col-md-4 lh">
+        <h4>ĐĂNG KÝ NHẬN THÔNG BÁO</h4>
+        <p>Đăng ký nhận thông tin khuyến mãi và cập nhật sản phẩm mới nhất từ HAU</p>
+        <form class="form-subcribe">
+            <input type="text"  class="adc" placeholder="Nhập địa chỉ email tại đây">
+             <p class="text">EMAIL liên hệ: hauhau@gmail.com</p>
+            <button class="submit-subcribe"><i class="fas fa-envelope-open-text"></i></button>
+          </form>
+       
+      </div>
+    </div>
+  </div>
+ <div class="mobile-lienhe">
+  <button type="button" class="collapsible">Thông tin Liên Hệ</button>
+  <div class="content">
+   <p><i class="fas fa-map-pin"> &nbsp; Đại Học Kiến Trúc Hà Nội</i></p>
+  </div>
+  <button type="button" class="collapsible">Về Chúng Tôi</button>
+  <div class="content">
+    <p style="font-size:18px">Các Thành viên</p>
+    <ol>
+      <li>Hoàng Trung Công</li>
+      <li>Nguyễn Thị Thùy Linh</li>
+      <li>Trần Minh Hiếu</li>
+      <li>Trần Thế Long</li>
+      <li>Phạm Quang Huy</li>
+    </ol>
+  </div>
+  <button type="button" class="collapsible">Đăng ký nhận Thông báo</button>
+  <div class="content">
+    <p>Đăng ký nhận thông tin khuyến mãi và cập nhật sản phẩm mới nhất từ HAU</p>
+    <form class="form-subcribe">
+        <input type="text"  class="adc" placeholder="Nhập địa chỉ email tại đây">
+         <p class="text">EMAIL liên hệ: hauhau@gmail.com</p>
+        
+      </form>
+  </div>
+ </div>
+
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script> 
+<script>
+function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>
